@@ -1,0 +1,24 @@
+{
+  "name": "trimtab",
+  "version": "0.1.1",
+  "description": "Trimtab MCP connection and operating skills for Claude agents.",
+  "author": {
+    "name": "Archipelago AEC"
+  },
+  "homepage": "https://github.com/archipelagoaec/trimtab",
+  "repository": "https://github.com/archipelagoaec/trimtab",
+  "license": "AGPL-3.0-only",
+  "keywords": [
+    "mcp",
+    "psa",
+    "erp",
+    "architecture",
+    "engineering"
+  ],
+  "mcpServers": {
+    "trimtab": {
+      "type": "http",
+      "url": "${ATLAS_MCP_URL:-https://bridge.trimtab.cc/api/mcp}"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "trimtab",
+  "owner": {
+    "name": "Archipelago AEC",
+    "url": "https://github.com/archipelagoaec/trimtab"
+  },
+  "description": "The Trimtab plugin for Claude Code: the Trimtab MCP connection, operating skills, and feedback commands.",
+  "plugins": [
+    {
+      "name": "trimtab",
+      "source": "./",
+      "description": "Connect Claude to Trimtab and operate it: projects, time, fees, proposals and invoices over MCP.",
+      "category": "productivity",
+      "keywords": [
+        "mcp",
+        "psa",
+        "erp",
+        "architecture",
+        "engineering"
+      ]
+    }
+  ]
+}
