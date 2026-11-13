@@ -1,8 +1,7 @@
 # Trimtab Claude plugin
 
 Connect Claude to Trimtab with its bundled MCP connector, operating skills, and feedback commands.
-The connection defaults to `https://bridge.trimtab.cc/api/mcp`.
-`ATLAS_MCP_URL` overrides the address in Claude Code.
+The connection uses `https://engine.trimtab.cc/api/mcp`.
 
 ## Install in Claude Code
 
